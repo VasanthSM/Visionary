@@ -122,13 +122,13 @@ const ARPage = () => {
   };
 
   return (
-    <div className="container mx-auto py-8 px-4 md:px-8 lg:px-16 bg-[#F8F8FF]">
-      <h2 className="text-3xl font-bold mb-6 text-center text-black">Try Glasses On (AR)</h2>
+    <div className="container mx-auto py-4 px-4 md:px-8 lg:px-16 bg-[#F8F8FF]">
+      <h2 className="text-xl md:text-2xl font-bold mb-6 text-center text-black">Try Glasses On (AR)</h2>
       <div className="flex flex-col items-center">
         {/* Camera Toggle Button */}
         {!isCameraActive ? (
           <button
-            className="bg-blue-500 text-white px-6 py-2 rounded mb-6 hover:bg-blue-600 transition duration-300"
+            className="bg-blue-500 text-white px-6 py-2 rounded mb-4 hover:bg-blue-600 transition duration-300"
             onClick={startCamera}
           >
             Start Camera
